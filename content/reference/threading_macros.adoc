@@ -90,7 +90,7 @@ unary functions:
 ------------------------------------------------------
 
 However, `+++->+++` is not universally applicable, as we do not necessarily
-always want to insert the threaded argument in initial position.
+always want to insert the threaded argument in the initial position.
 Consider a function that computes the sum of the squares of all even
 positive integers below ten:
 
