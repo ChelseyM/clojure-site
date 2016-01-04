@@ -70,7 +70,7 @@ refactor, and three or more closing parentheses piling up at the end of a functi
 is one sign that a threading macro might help.
 
 [[thread-last]]
-The thread-last macro (+++->>+++) and +++as->+++
+The thread-last macro (+++->>+++) and (+++as->+++)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The `+++->+++` macro follows a purely syntactic transformation rule: for each
