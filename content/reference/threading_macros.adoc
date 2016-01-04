@@ -20,7 +20,7 @@ map:
 ------------------------------------------
 
 `transform` is an example of a common pattern: it takes a value and transforms
-it a number of times, with each step in the pipeline taking the result of the
+it a number of times with each step in the pipeline taking the result of the
 previous step as its input. It is often possible to improve code of this type
 by rewriting it to use the thread-first macro:
 
