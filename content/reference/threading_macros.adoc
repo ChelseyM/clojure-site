@@ -19,7 +19,7 @@ map:
    (update (assoc a-map :color :red) :age inc))
 ------------------------------------------
 
-`tranform` is an instance of a common pattern: it takes a value and transforms
+`transform` is an instance of a common pattern: it takes a value and transforms
 it a number of times, with each step in the pipeline taking the result of the
 previous step as its input. It is often possible to improve code of this type
 by rewriting it to use the thread-first macro:
