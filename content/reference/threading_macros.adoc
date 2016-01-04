@@ -164,7 +164,7 @@ under that name.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Two of Clojure's more specialized threading macros, `+++some->+++` and its
-cognate `+++some->>+++`, are used most commonly when intefacing with Java
+cognate `+++some->>+++`, are used most commonly when interfacing with Java
 methods. `+++some->+++` resembles `+++->+++` in that it threads a value through
 a number of expressions. However, it also short-circuits execution when an
 expression evaluates as `nil` at any point in the chain. One common problem with
