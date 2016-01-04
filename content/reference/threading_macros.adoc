@@ -59,7 +59,7 @@ function is the result of the last computation, the call to `update`. But to a
 programmer, the re-written function looks different. It reads more like an
 informal description of the algorithm: "Take a map, increase its age, change its
 color to red, and return the result". Of course in the context of immutable
-values, no actual update through mutation takes place. Instead, the function
+values, no actual update mutation takes place. Instead, the function
 returns a new value with updated attributes.
 
 Whereas a pipeline of nested function calls ends with as many closing
