@@ -100,7 +100,7 @@ positive integers below ten:
 -------------------------------------------------------------
 
 Like `transform`, `calculate` is a pipeline of transformations, but
-unlike the former the threaded value appears, in each function call, in
+unlike the former, the threaded value appears in each function call in
 the final position in the argument list. Instead of the single arrow,
 then, we need to use the thread-last macro, `+++->>+++`:
 
