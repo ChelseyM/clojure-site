@@ -199,12 +199,12 @@ common to see `+++some->+++` used when threading is not required:
 
 Like `+++->+++`, the macro `+++cond->+++` takes an initial value, but unlike the
 former, it generally requires an even number of extra arguments because the
-argument list is interpreted as a series of `test, expr` pairs. `+++cond->+++``
+argument list is interpreted as a series of `test, expr` pairs. `+++cond->+++`
 threads a value through the expressions but skips those whose associated tests
 fail. For each pair, `test` is evaluated. If the result is truthy, the
 expression is evaluated with the previous value inserted as its first argument;
-otherwise evaluation proceeds with the next `test, expr` pair. Note that, unlike
-its relatives `+++some->+++` or `cond`, `+++cond->+++` never short-circuits
+otherwise evaluation proceeds with the next `test, expr` pair. Note that unlike
+its relatives, `+++some->+++` or `cond`, `+++cond->+++` never short-circuits
 evaluation, even if a test evaluates to `false` or `nil`:
 
 ----------------------------------
