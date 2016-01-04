@@ -185,7 +185,7 @@ cases is to add an explict guard:
 ----------------------------------
 
 If `a-map` lacks the key `:foo`, the entire expression will evaluate to `nil`
-rather than raising an exception. In fact this behavior is so useful that it is
+rather than raising an exception. In fact, this behavior is so useful that it is
 common to see `+++some->+++` used when threading is not required:
 
 ----------------------------------
@@ -198,7 +198,7 @@ common to see `+++some->+++` used when threading is not required:
 ----------------------------------
 
 Like `+++->+++`, the macro `+++cond->+++` takes an initial value, but unlike the
-former it generally requires an even number of extra arguments because the
+former, it generally requires an even number of extra arguments because the
 argument list is interpreted as a series of `test, expr` pairs. `+++cond->+++``
 threads a value through the expressions but skips those whose associated tests
 fail. For each pair, `test` is evaluated. If the result is truthy, the
