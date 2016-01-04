@@ -66,8 +66,8 @@ Whereas a pipeline of nested function calls ends with as many closing
 parentheses as there are steps in the pipeline, a threading macro typically has
 only two closing parentheses. So the threading macro is one way to keep the
 number of parentheses under control. Indeed, introducing `+++->+++` is a common
-refactoring, and one sign that a threading macro might help is that three or
-more closing parentheses pile up at the end of a function.
+refactor, and three or more closing parentheses piling up at the end of a function
+is one sign that a threading macro might help.
 
 [[thread-last]]
 The thread-last macro (+++->>+++) and +++as->+++
